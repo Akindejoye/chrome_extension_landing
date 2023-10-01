@@ -5,11 +5,11 @@ import Recordings from "./pages/Recordings";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <Layout />,
     children: [
       {
-        path: "/recordings",
+        path: "/",
         element: <Recordings />,
       },
     ],
