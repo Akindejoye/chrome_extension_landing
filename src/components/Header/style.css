@@ -44,3 +44,10 @@
   color: var(--primary);
   cursor: pointer;
 }
+
+@media (max-width: 760px) {
+  .header__nav-1,
+  .header__nav-2 {
+    display: none;
+  }
+}
