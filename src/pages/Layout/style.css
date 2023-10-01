@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  grid-template-columns: 80px repeat(10, 1fr) 80px;
+  grid-template-rows: repeat(3, min-content);
+  column-gap: 20px;
+  overflow: hidden;
+}
+
+.layout__header {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  height: 100px;
+}
+
+.layout__main {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+
+.layout__footer {
+  grid-column: 1 / -1;
+  grid-row: 3 / -1;
+}
